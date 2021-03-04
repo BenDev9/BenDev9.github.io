@@ -1,19 +1,59 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <title>404 - Page not found</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+        <style>
+            html{ 
+                position:relative; 
+                min-height:100%;
+            }
+
+            div {
+                width: 300px;
+                margin: auto;
+                color: whitesmoke;
+            }
+
+            section{
+                width: fit-content;
+                margin: auto;
+                margin-bottom: 100px;
+                color: whitesmoke;
+            }
+
+            .gradient-vert {
+                background: linear-gradient(to top, #013567 0%, #0195FA 100%);
+            }
+
+            body {
+                background-color: black;/* For browsers that do not support gradients */
+                background-image: linear-gradient(to bottom left, #474747, #292929, #181818);
+            }
+
+            footer {
+                width:100%;
+                height:fit-content;
+                position:relative;
+                bottom:0;
+                left:0;
+            }
+
+            #updateArticle{
+                background-color: white;/* For browsers that do not support gradients */
+                background-image: linear-gradient(to right, #7c7c7c, #b3b3b3);
+            }
+        </style>
+
+        <title>BenDev9 - GithubPages - 404 Error</title>        
     </head>
 
-    <script>
-        function ReturnToFrontPage(){
-            window.location.replace("https://bendev9.github.io/")
-        }
-    </script>
-
-    <div text-align="center;"style="margin: auto;">
-        <p1>Sorry, I couldn't find the page you were looking for :(</p1>
-    </div>
-
-    <div>
-        <button = onclick="ReturnToFrontPage()">Return to front page</button>
-    </div>
+    <body>
+        <h1 class="w3-center" style="color: red;">Oops, I couldn't find that page :(</h1>
+        <br>
+        <div class="w3-center"><a href="bendev9.github.io" class="w3-button">Return to front page</a></div>
+    </body>
 </html>
