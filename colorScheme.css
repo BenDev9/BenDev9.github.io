@@ -1,0 +1,25 @@
+/* Color Theme Swatches in Hex */
+
+:root {
+    --MISRAJ-AI-1-hex: #242259;
+}
+
+.MISRAJ-AI-1-hex { color: #242259; }
+.MISRAJ-AI-2-hex { color: #1A1840; }
+.MISRAJ-AI-3-hex { color: #4E55D9; }
+.MISRAJ-AI-4-hex { color: #32378C; }
+.MISRAJ-AI-5-hex { color: #0D0D0D; }
+
+/* Color Theme Swatches in RGBA */
+.MISRAJ-AI-1-rgba { color: rgba(35, 33, 89, 1); }
+.MISRAJ-AI-2-rgba { color: rgba(25, 24, 63, 1); }
+.MISRAJ-AI-3-rgba { color: rgba(78, 84, 216, 1); }
+.MISRAJ-AI-4-rgba { color: rgba(50, 54, 140, 1); }
+.MISRAJ-AI-5-rgba { color: rgba(12, 12, 12, 1); }
+
+/* Color Theme Swatches in HSLA */
+.MISRAJ-AI-1-hsla { color: hsla(241, 44, 24, 1); }
+.MISRAJ-AI-2-hsla { color: hsla(241, 44, 17, 1); }
+.MISRAJ-AI-3-hsla { color: hsla(236, 64, 57, 1); }
+.MISRAJ-AI-4-hsla { color: hsla(236, 47, 37, 1); }
+.MISRAJ-AI-5-hsla { color: hsla(0, 0, 5, 1); }
